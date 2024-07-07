@@ -1,0 +1,23 @@
+(앞바퀴 가변저항 최대 최소 중앙 값)
+최대(좌) 140
+최소(우) 107
+중앙   120
+
+[센서별 연결 pin 정리]
+
+<초음파 센서>
+// 초음파 센서 핀 번호
+const int NUM_SENSORS = 6;
+const int echoPins[NUM_SENSORS] = {A0, A1, A2, A3, A4, A5};
+const int trigPins[NUM_SENSORS] = {23, 25, 27, 29, 31, 33};
+
+<모터> (핀기준:PWM)
+
+1번 모터 = 앞바퀴 2개 모터
+in1 = 12  in2 = 13
+
+2번 모터 = 왼쪽 뒷바퀴 모터
+in1 = 8 in2 = 9
+
+3번 모터 = 오른쪽 뒷바퀴 모터
+in1 = 10 in2 = 11
