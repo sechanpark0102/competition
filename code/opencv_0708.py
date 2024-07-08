@@ -264,6 +264,9 @@ if __name__ == "__main__":
         env.image_show(line_image_final,line_image)  #최종 line 확인
         # 파이시리얼 통신 (현장에서 angle, distance_to_right_line 변수 확인 및 튜닝 필요)
         py_serial(aabbcc)
+        response = arduino.readline(()
+        response=response.decode()
+        print(f"Sent: {aabbcc}, Received: {response}")
 
 
 
