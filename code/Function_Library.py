@@ -1,24 +1,3 @@
-"""
--------------------------------------------------------------------
-  FILE NAME: Function_Library.py
-  Copyright: Sungkyunkwan University, Automation Lab.
--------------------------------------------------------------------
-  This file is included library class for below subject.
-  1) Arduino
-  2) LiDAR
-  3) Camera
--------------------------------------------------------------------
-  Authors: Jonghun Kim, YoungSoo Do, SungBhin Oh, HyeongKeun Hong
-
-  Generated: 2022-11-10
-  Revised: 2022-11-18
--------------------------------------------------------------------
-  If you find some wrong code, plz contact me(Main Author: Jonghun Kim).
--------------------------------------------------------------------
-  You should never modify this file during workshop exercise.
--------------------------------------------------------------------
-"""
-
 import sys
 import cv2                           # pip install opencv
 import time
@@ -26,7 +5,6 @@ import serial                        # pip install serial
 import numpy as np                   # pip install numpy
 import matplotlib.pyplot as plt      # pip install matplotlib
 from rplidar import RPLidar          # pip install rplidar-roboticia
-
 
 np.set_printoptions(threshold=sys.maxsize, linewidth=150)
 
